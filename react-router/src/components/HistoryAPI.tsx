@@ -23,6 +23,7 @@ const HistoryAPI = () => {
 
   return (
     <>
+      <h3>history API test</h3>
       <button onClick={goMain}>goMain</button>
       <button onClick={clickPushState}>pushState</button>
       <button onClick={clickReplaceState}>replaceState</button>
