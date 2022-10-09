@@ -6,7 +6,7 @@ const useRouter = () => {
 
   const push = (url: string) => {
     if (location === url) return;
-    history.pushState(url, "", url);
+    window.history.pushState(url, "", url);
     setLocation(url);
   };
 
