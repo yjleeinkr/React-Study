@@ -6,7 +6,7 @@ interface RouterContext {
 }
 
 const { pathname } = window.location;
-const RouterContext = createContext<RouterContext | null>({
+const RouterContext = createContext<RouterContext>({
   location: pathname,
   setLocation: null,
 });
