@@ -8,7 +8,7 @@ interface RouterContext {
 const { pathname } = window.location;
 const RouterContext = createContext<RouterContext>({
   location: pathname,
-  setLocation: useState,
+  setLocation: () => {},
 });
 
 export default RouterContext;
