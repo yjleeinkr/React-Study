@@ -8,8 +8,11 @@ type RouteProps = {
 
 const Route = ({ path, element }: RouteProps) => {
   const { location } = useContext(RouterContext);
-  if (path !== location) return;
-  return <div>{element}</div>;
+  if (path === location) {
+    return <div>{element}</div>;
+  } else {
+    return <div></div>;
+  }
 };
 
 export default Route;
