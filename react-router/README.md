@@ -26,8 +26,6 @@
 <br>
 `hisotry.back()` 뒤로가기, `history.forward()` 앞으로 가기, `history.go(idx)` 지정 위치로 이동, 이 3가지 history 메소드는 알고 있었으나, 아래 두 메소드는 생소해서 정리해본다.
 
-<br>
-
 ### `history.pushState(state, title, url)`
 
 - 브라우저의 session history 스택에 상태를 추가해준다.
